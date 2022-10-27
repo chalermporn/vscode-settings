@@ -1,0 +1,130 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "angular_ngrx",
+  "terminal.integrated.fontFamily": "'Jetbrains Mono','Space Mono for Powerline','Hasklig', 'Courier New', monospace",
+  "terminal.integrated.fontSize": 15,
+  "editor.fontFamily": "'Jetbrains Mono','Space Mono for Powerline','Hasklig', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.fontWeight": "400",
+  "editor.multiCursorModifier": "alt",
+  "editor.lineNumbers": "on",
+  "workbench.sideBar.location": "left",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr-quotes": "single"
+    }
+  },
+  // "prettier.semi": false,
+  // "prettier.tabWidth": 2,
+  // "prettier.bracketSpacing": false,
+  // "prettier.singleQuote": true,
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/kaitai-io/ksy_schema/master/ksy_schema.json": "*.ksy",
+    "file:///c%3A/Users/bird/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "editor.tabCompletion": "on",
+  "editor.suggest.localityBonus": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "quokka.colorizeOutput": true,
+  "quokka.colors": {
+    "covered": "#62b455",
+    "errorPath": "#ffa0a0",
+    "errorSource": "#fe536a",
+    "notCovered": "#cccccc",
+    "partiallyCovered": "#d2a032"
+  },
+  "quokka.showOutputOnStart": true,
+  "workbench.statusBar.visible": true,
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "javascriptreact",
+    "typescriptreact": "javascriptreact",
+    "vue-html": "html",
+    "plaintext": "jade"
+  },
+  "html.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw=\"([^\"]*)", // <div tw="..." />
+    "tw={\"([^\"}]*)", // <div tw={"..."} />
+    "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+    "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+  ],
+  "tailwindCSS.includeLanguages": {
+    "scss": "css",
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.emmetCompletions": false,
+  "tailwindCSS.validate": true,
+  "tailwindCSS.colorDecorators": true,
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "wallaby.codeLensFeature.runTest": true,
+  "wallaby.startAutomatically": false,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "php.validate.executablePath": "C:\\PHP\\php-8.0.10-nts-Win32-vs16-x64\\php.exe",
+  "svelte.enable-ts-plugin": true,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1664958532434,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "angular.disableAutomaticNgcc": true,
+  "atlascode.jira.enabled": true,
+  "atlascode.bitbucket.enabled": false,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "3d888e68-eadf-420a-a4e0-d80ad34e3792",
+      "siteId": "3488ca87-edec-442b-a6cb-40f6b1b95359",
+      "name": "LEXS-BIRD",
+      "query": "project = \"LEXS\" AND assignee = currentUser() ORDER BY created DESC",
+      "enabled": true,
+      "monitor": true
+    }
+  ],
+  "wallaby.codeLensFeature.debugger": true,
+  "npm.keybindingsChangedWarningShown": true,
+  "svelte.plugin.svelte.note-new-transformation": false
+}
